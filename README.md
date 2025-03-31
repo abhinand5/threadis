@@ -1,6 +1,8 @@
 # thREaDIS
 A high-performance Redis proxy that shards keys across multiple isolated Redis instances using Unix domain sockets for ultra-fast local caching.
 
+> **FAIR WARNING:** Project is empty at the moment! Atleast on the `main` branch.
+
 **Alternative to Redis Cluster:** thREaDIS focuses on efficient multi-core scaling on a single machine rather than horizontal scaling across multiple servers. It's designed for environments where you need to maximize performance on a single powerful server before adding more machines.
 
 > **Note** This project is a PoC and is clearly at its infancy. Wait for a month to see reasonable progress (only if everything goes to plan)
